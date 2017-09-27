@@ -43,4 +43,10 @@ for i in range(1,6):
     total = total + i 
 print(total)"""
 
+total = 0
+i = 1
+while 1 <=5:
+    total = total + i
+    i=i+1
+print(total)
     
