@@ -1,6 +1,6 @@
 #Andrew Parker
 #9/27/17
-#loopDemo.py - how to use loops
+#favorites.py - repeats your word for you
 
 fword = input('What is your favorite word? ')
 fnum = int(input('what is your favorite number? '))
