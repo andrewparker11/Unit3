@@ -12,3 +12,9 @@ for i in range(0,5):
 for i in range(1,21):
     print(i)
     
+#print out the odd numbers from 13 to 27
+for i in range(13,28):
+    if i%2 == 1: 
+        print(i)
+
+    
