@@ -4,6 +4,8 @@
 
 i = int(input('Enter a number '))
 while i>0:
-    print(i+1)
+    print(i)
     i = i -1
+when i=0:
+    print('BOOM! ')
 
