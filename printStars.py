@@ -4,8 +4,7 @@
 
 """i = int(input('Enter a number '))"""
 
-i=5
-while i>0:
+i=*
+while i<'*'*10:
     print(i)
-    i = i -1
-print('BOOM! ')
+    i = 'i'*2
