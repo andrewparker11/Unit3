@@ -9,3 +9,6 @@ while 3<4:
 #copy cat
 while True:
     input('Say something: ')
+    print(text)
+    if text == 'something':
+        break
