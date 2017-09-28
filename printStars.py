@@ -4,7 +4,7 @@
 
 """i = int(input('Enter a number '))"""
 
-i=*
+i='*'
 while i<'*'*10:
     print(i)
     i = i*2
