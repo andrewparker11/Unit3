@@ -4,10 +4,15 @@
 
 
 #For loop version
+"""
 i = 1
 for i in range(1,11):
-    print(i, 'Missisipi')
+    print(i, 'Missisipi')"""
+    
     
 #For While loop version
-
+i = 1
+while i<=10:
+    print(i, 'Missisipi')
+    i = i + 1
 
