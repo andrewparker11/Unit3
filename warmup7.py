@@ -1,14 +1,8 @@
 #Andrew Parker
-#9/28/17
-#warmup6.py - Count missisipi to 10
+#9/29/17
+#warmup7.py - Factorial of 20
 
 
-#For loop version
-"""
-for i in range(1,11):
-    print(i, 'Missisipi')"""
-    
-    
 #For While loop version
 i = 1
 while i<=10:
