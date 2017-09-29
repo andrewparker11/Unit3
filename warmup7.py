@@ -2,9 +2,7 @@
 #9/29/17
 #warmup7.py - Factorial of 20
 
-
-#For While loop version
-i = 1
-while i<=10:
-    print(i, 'Missisipi')
-    i = i + 1
+total = 1 
+for i in range(1,21):
+    total = total * i  
+print(total)
