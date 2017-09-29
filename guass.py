@@ -3,8 +3,7 @@
 #printStars.py - prints some stars
 
 
-i = int(input('Input a number: '))
-while i<=10:
-    print('*'*i)
-    i = i+1
-
+total = 1 
+for i in range(1,101):
+    total = total + i  
+print(total)
