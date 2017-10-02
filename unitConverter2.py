@@ -22,3 +22,7 @@ elif uc == 3:
 elif uc == 4:
     deg = int(input('How many degrees in Celsius? '))
     print((deg*9/5)+32, 'degrees fahrenheit')
+elif uc == 5:
+    break
+elif uc == 1,2,3,4,5:
+   
