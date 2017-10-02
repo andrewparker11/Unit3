@@ -5,7 +5,7 @@
 
 word = input('Enter a word: ')
 
-for i<100,00 and i%3==0 and i%10 == 0 and i%17
+for i<10000 and i%3==0 and i%10 == 0 and i%17
 
 for ch in word:
     print(ch+'!')
