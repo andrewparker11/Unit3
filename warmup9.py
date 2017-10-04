@@ -5,4 +5,6 @@
 word = input('Give a word: ')
 for ch in word:
     if ch is 'a' or ch is 'e' or ch is 'i' or ch is 'o' or ch is 'u':
-    print(ch.upper())
+        print(ch.upper())
+    else:
+        print(ch)
