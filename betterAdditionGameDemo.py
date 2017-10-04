@@ -13,4 +13,6 @@ while numCorrect < 5:
     answer = int(input(question))
     if num1 + num2 == answer:
         print('Correct!')
-        numCorrect +=1
+        numCorrect += 1
+    else:
+        print('The answer was', num1+num2)
