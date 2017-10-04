@@ -10,3 +10,5 @@ while numCorrect < 5:
     num2 = randint(-10,10)
     question - 'What is ' + str(num1) + '+' + str(num2) + '?'
     int(input(question))
+    answer = int(input(question))
+    
