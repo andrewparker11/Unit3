@@ -11,4 +11,4 @@ while numCorrect < 5:
     question - 'What is ' + str(num1) + '+' + str(num2) + '?'
     int(input(question))
     answer = int(input(question))
-    
+    break
