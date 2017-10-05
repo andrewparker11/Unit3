@@ -10,9 +10,9 @@ yellow = Color(0xFFFF00,1)
 
 
 blackOutline = LineStyle(1,black) #pixels, color
-redRectangle = RectangleAsset(60,10,blackOutline,red) #width, height, outline, fill
-blackRectangle = RectangleAsset(60,10,blackOutline,black)
-yellowRectangle = RectangleAsset(60,10,blackOutline,yellow)
+redRectangle = RectangleAsset(20,3,blackOutline,red) #width, height, outline, fill
+blackRectangle = RectangleAsset(20,3,blackOutline,black)
+yellowRectangle = RectangleAsset(20,3,blackOutline,yellow)
 dot = CircleAsset(20,LineStyle(1,red),red)
 
 for j in range(10):
