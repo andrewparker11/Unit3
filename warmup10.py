@@ -17,9 +17,9 @@ dot = CircleAsset(20,LineStyle(1,red),red)
 
 for j in range(10):
     for i in range(20):
-        Sprite(redRectangle,(20 + 50*i, 20+50*j))
-        Sprite(yellowRectangle,(20 + 50*i, 20+50*j))
-        Sprite(blackRectangle,(20 + 50*i, 20+50*j)) 
+        Sprite(redRectangle,(20 + 50*i, 20 + 50*j)
+        Sprite(yellowRectangle,(20 + 50*i, 20 + 40*j)
+        Sprite(blackRectangle,(20 + 50*i, 20 + 30*j) 
 
 App().run()
 
