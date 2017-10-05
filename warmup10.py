@@ -13,13 +13,13 @@ blackOutline = LineStyle(1,black) #pixels, color
 redRectangle = RectangleAsset(40,6,blackOutline,red) #width, height, outline, fill
 blackRectangle = RectangleAsset(40,6,blackOutline,black)
 yellowRectangle = RectangleAsset(40,6,blackOutline,yellow)
-dot = CircleAsset(20,LineStyle(1,red),red)
+#dot = CircleAsset(20,LineStyle(1,red),red)
 
 for j in range(10):
     for i in range(20):
-        Sprite(redRectangle,(20 + 50*i, 20+50*j))
-        Sprite(yellowRectangle,(20 + 50*i, 20+40*j))
-        Sprite(blackRectangle,(20 + 50*i, 20+30*j))
+        Sprite(blackRectangle,(20 + 50*i, 20+50*j))
+        Sprite(redRectangle,(20 + 50*i, 20+40*j))
+        Sprite(yellowRectangle,(20 + 50*i, 20+30*j))
 
 App().run()
 
