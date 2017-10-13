@@ -9,16 +9,18 @@ i = 18
 while i<33:
     print(i)
     i+=2
-
+"""
 total = 0 
 i = 13
 for i in range(i,332):
     i += 2
     total += i
-print(total)
+print(total)""
     
-while True:
+While True:
     text = input('Enter a word: ')
     for ch in text:
-        if ch == 'z':
-            break
+        if ch is 'z':
+        break""
+
+
