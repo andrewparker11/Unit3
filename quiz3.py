@@ -10,8 +10,15 @@ while i<33:
     print(i)
     i+=2
 
-total = 0
+total = 0 
 i = 13
-while i<332:
+for i in range(i,332):
+    i += 2
     total += i
+print(total)
     
+while True:
+    text = input('Enter a word: ')
+    for ch in word:
+        if ch == 'z':
+        break
